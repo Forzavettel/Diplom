@@ -1,0 +1,75 @@
+body {
+	width: 100%;
+	padding:0;
+	margin:0;
+	background:url('../img/glfon.jpg');
+}
+#header{
+	background:url('../img/PSfon.jpg');
+	height:256px;
+}
+#logotext{
+	float:right;
+	margin:40px;
+	padding-top:80px;
+	text-shadow:1px 1px 1px black;
+	color:yellow;
+	font-size: 40px;
+}
+#logo{
+	float:left:
+}
+#nav {
+	display:flex;
+	border-radius: 10px;
+}
+#nav a{
+	flex:1;
+	text-align:center;
+	background:yellow;
+	color:blue;
+	font-weight:bold;
+	padding:20px 0;
+	border-right:solid 1px;
+	border-radius: 20px;
+	margin-top: -15px;
+	text-decoration:none;
+}
+#nav a:hover{
+	background:white;
+	color:black;
+}
+.my-cont{
+	margin-top:40px;
+	background:#fff;
+	padding:5px;
+	border-radius:6px;
+	box-shadow:5px 5px 1px black;
+}
+.col img{
+	max-width: 600px;
+}
+.btn{
+	background: yellow;
+	margin-top: 20px;
+}
+#footer{
+	text-align:center;
+	padding:10px;
+	margin:50px 0;
+}
+#prev{
+	border-radius: 10px;
+}
+#play{
+	border-radius: 10px;
+}
+#stop{
+	border-radius: 10px;
+}
+#next{
+	border-radius: 10px;
+}
+#col-3{
+	float:right;
+}
